@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Ejercicio1\Ejercicio1.cs" />
+    <Compile Include="Clases\Ejercicio2\Ejercicio2.cs" />
+    <Compile Include="Clases\Ejercicio3\Ejercicio3.cs" />
+    <Compile Include="Clases\Ejercicio4\Ejercicio4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,8 +54,6 @@
     <None Include=".csproj" />
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Clases\Ejercicio1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
